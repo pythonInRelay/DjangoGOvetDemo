@@ -8,7 +8,7 @@ from django.http import JsonResponse
 from rest_framework.parsers import JSONParser
 from django.db import connection
 from .models import URLData
-from .forms import URLDataForm
+# from .forms import URLDataForm
 from .serializers import URLDataSerializers
 from django.shortcuts import redirect
 import sqlite3
