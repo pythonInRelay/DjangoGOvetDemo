@@ -7,8 +7,10 @@ from rest_framework.response import Response
 from django.http import JsonResponse
 from rest_framework.parsers import JSONParser
 from django.db import connection
+
+from .forms import URLDataForm
 from .models import URLData
-# from .forms import URLDataForm
+from .forms import URLDataForm
 from .serializers import URLDataSerializers
 from django.shortcuts import redirect
 import sqlite3
@@ -18,7 +20,7 @@ import random
 # Declare Key Variables
 BASE_LIST = '0123456789abcdefghijklmnopqrstuvwxyz./:'
 BASE_DICT = dict((c, idx) for idx, c in enumerate(BASE_LIST))
-service_url = '127.0.0.1'
+service_url = 'http://localhost:8000'
 
 
 class FullURLView(viewsets.ModelViewSet):
