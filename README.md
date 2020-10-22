@@ -47,4 +47,4 @@ Technologies used
 
 _____________________________________
 
-A live demo is available whilst I have remaining credit: url
+A live demo is available [here](https://finlandin.review) whilst I have remaining credit.
