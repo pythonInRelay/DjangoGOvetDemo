@@ -40,6 +40,9 @@ Technologies used
 * HTML5 & CSS
 * Bootstrap 4
 * URLDataSerializers
+* GUnicorn
+* Crispy Forms
+* Nginx
 * and a bit of logo/image hacking
 
 _____________________________________
