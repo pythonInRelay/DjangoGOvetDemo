@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<title>URL Shortner</title>
+	<title>GOVet URL Shortner</title>
 </head>
 <body>
 
@@ -16,8 +16,8 @@
 <div class="col-3 ml-5 text-right">
 			<table align="right" style="width:30%">
 			  <tr>
-			    <th><a href="#" style="color: orange">Sign Up</a></th>
-			    <th><a href="#" style="color: orange">Login</a>
+			    <th><a href="#" style="color: blue"><u>HOME</u></a></th>
+			    <th><a href="#" style="color: blue"><u>LOGOUT</u></a>
 			    </th> 
 			  </tr>
 			</table>
@@ -36,11 +36,11 @@
 	    <div class="col-5 text-center">
 	      	<table style="width:90%">
 			  <tr>
-			    <th><a href="/" style="color: green">HOME</a></th>
-			    <th><a href="#" style="color: green">SERVICES</a></th> 
-			    <th><a href="#" style="color: green">PRICING</a></th>
-			    <th><a href="#" style="color: green">ABOUT</a></th>
-			    <th><a href="#" style="color: green">FAQ</a></th>
+                  <th><a href="/" style="color: dodgerblue"><u>PROFILE</u></a></th>
+			    <th><a href="#" style="color: dodgerblue"><u>CUSTOMERS</u></a></th>
+			    <th><a href="#" style="color: dodgerblue"><u>PET DATA</u></a></th>
+			    <th><a href="#" style="color: dodgerblue"><u>ACCOUNT</u></a></th>
+			    <th><a href="#" style="color: dodgerblue"><u>SITE MAP</u></a></th>
 			  </tr>
 			</table>
 	    </div>
@@ -57,14 +57,17 @@
     	<div class="row">
     		<div class="col-3">
     			{% load static %}
-		<img src="{% static 'logo.png' %}" alt="Python" style="width:55%">
+		<img src="{% static 'logo1.png' %}" alt="" style="width:50%">
 			</div>
 		
   
       
         <div class="col-6 mt-5 pt-5">
-          <h1 class="text-center">  <p style="color: orange"><b>Short N'</b><i style="color: green"> Sweet</i></p>
-          <hr class="mt-4 mb-4"></h1>
+            <div class="col-sm text-center">
+                <img src="{% static 'logo.png' %}" alt="GOVet Logo" style="width:27%"></div>
+            <h3 class="text-center">  <p style="color: darkblue"><b>Welcome to GOVet's URL Shortener</b></p>
+          <h5 class="text-center">  <p style="color: darkblue"><b>Please enter a valid URL in the field below</b></p>
+          <hr class="mt-4 mb-4"></h5>
           <div class="row pt-3"></div>
 
         </div>
@@ -112,7 +115,8 @@
      </div>
  </div>
  <div class="row pt-2"></div>
- <h3 class="mt-4 text-center">  <p style="color: green"><b>Made</b><i style="color: orange"> with:</i></p></h3>
+ <h5 class="mt-4 text-center">  <p style="color: darkred"><b>Made by <i>Daniel Barber</i></b></p></h5>
+    <h5 class="mt-4 text-center">  <p style="color: orangered"><b>Using:</b></p></h5>
           
  <div class="container"> 
  	<div class="col-3 text-center"></div>
@@ -122,15 +126,19 @@
  
     <div class="col-sm text-center">
       {% load static %}
-		<img src="{% static 'django.png' %}" alt="Django" style="width:30%">
+		<img src="{% static 'django.png' %}" alt="Django" style="width:70%">
   </div>
     <div class="col-sm text-center">
       {% load static %}
-		<img src="{% static 'python.png' %}" alt="Python" style="width:30%">
+		<img src="{% static 'python.png' %}" alt="Python" style="width:70%">
     </div>
     <div class="col-sm text-center">
       {% load static %}
-		<img src="{% static 'bootstrap.png' %}" alt="Bootstrap" style="width:30%">
+		<img src="{% static 'bootstrap.png' %}" alt="Bootstrap" style="width:70%">
+    </div>
+            <div class="col-sm text-center">
+      {% load static %}
+		<img src="{% static 'html5.png' %}" alt="HTML5" style="width:70%">
     </div></div>
   </div>
 </div>
