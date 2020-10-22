@@ -42,7 +42,8 @@ Technologies used
 * URLDataSerializers
 * GUnicorn
 * Crispy Forms
-* Nginx
+* Nginx / Letsencrypt / Certbot
+* Ubuntu Server (Linux)
 * and a bit of logo/image hacking
 
 _____________________________________
